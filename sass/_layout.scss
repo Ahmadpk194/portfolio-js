@@ -1,0 +1,29 @@
+.container {
+    max-width: 100%;
+    background-color: var(--grey-light-1);
+    min-height: 100vh;
+    display: flex;
+}
+
+.sidebar {
+    background-color: var(--grey-dark-1);
+    color: white;
+    flex: 0 0 22%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    // background-color: #f58f7c; #8ee4af #5cdb95
+    // background-image: linear-gradient(to bottom right, #0fa854, #43dd7e);
+    background-color: var(--primary-green);
+    flex-grow: 1;
+    padding: 6rem;
+    display: flex;
+    padding-top: 22rem;
+    position: relative;
+}
+
+
+
+
